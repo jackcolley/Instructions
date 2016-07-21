@@ -191,7 +191,7 @@ internal class CoachMarkDisplayManager {
 
             let offset = arrowOffsetForLayoutDirection(layoutDirection, segmentIndex: segmentIndex)
 
-            coachMarkView.changeArrowPositionTo(.Leading, offset: offset)
+            coachMarkView.changeArrowPositionTo(.Leading, offset: 100)
         case 2:
             instructionsTopView.addConstraint(NSLayoutConstraint(item: coachMarkView, attribute: .CenterX, relatedBy: .Equal, toItem: instructionsTopView, attribute: .CenterX, multiplier: 1, constant: 0))
 
